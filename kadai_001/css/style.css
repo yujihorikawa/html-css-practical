@@ -1,0 +1,138 @@
+body{
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+/* ヘッダー */
+
+.header-profile{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.home{
+  font-size: 34px;
+  margin: 0 0 0 30px;
+  border: 1px solid black;
+  padding: 12px 15px;
+}
+
+.header-profile a{
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu ul{
+  display: flex;
+  margin-right: 30px;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav a{ 
+  font-size: 34px;
+  margin-left: 15px;
+}
+
+/* about */
+.about-inner{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.name{
+  margin-left:20px;
+}
+h3{
+  font-size: 24px;
+}
+.myphoto{
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+
+/* myworks */
+.worksphoto{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  
+}
+
+.works-inner{
+  padding-bottom: 60px;
+  margin: 0 10px;
+  
+}
+
+.works-inner img{
+  width:100%;
+  height: auto;
+}
+/* フッター */
+
+footer p{
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-inner{
+  padding: 10px 0;
+  background-color: #000000;
+}
+
+@media (max-width: 767px){
+  h1 {
+    font-size: 28px;
+  }
+  a.home{
+    
+    padding: 5px;
+    margin: 13px 0 13px 15px;
+    }
+  .home{
+    font-size: 21px;
+  
+  }
+  nav a {
+    font-size: 21px;
+  }
+
+  h2 {
+    padding: 30px 0 20px;
+    font-size: 28px;
+  }
+.about-inner{
+  display: block;
+  text-align: center;
+}
+
+.name> ul {
+  text-align: left;
+  padding: 5px;
+}
+  .worksphoto{
+    display: block;
+  }
+}
